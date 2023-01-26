@@ -1,0 +1,27 @@
+@media (max-width: 750px) {
+    .caja {
+        
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            grid-template-areas: 
+            "grid1 grid1 grid2"
+            "grid1 grid1 grid3"
+            "grid5 grid4 grid4"
+            "grid6 grid4 grid4";
+            
+        
+    }
+  }
+@media (max-width: 480px){
+    .caja{
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "grid1"
+        "grid2"
+        "grid5"
+        "grid6"
+        "grid3"
+        "grid4";
+    }
+}

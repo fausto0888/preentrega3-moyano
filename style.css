@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;1,100&family=Oswald:wght@500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+
+}
+    .navbarimg{
+    width: 50px;
+    border-radius: 10px;
+}
+    
+.navbar-position{
+    position: fixed;
+}
+    .div-navbar-objetos{
+    display: flex;
+    justify-content: center;
+}
+/* #D24122 */
+/* #FFC5B8 */
+/* #E6826C */
+/* #17996A */
+
+
+
+#bodynuevo{
+    background-color: rgb(179, 165, 165);
+}
+
+
+#bodytienda{
+    background-color: rgb(221, 222, 253);
+}
+
+.section-cartas{
+    margin: 40px;
+   
+
+
+}
+
+
+#subtitulo{
+    position: absolute;
+    color: aliceblue;
+    margin-top: 10%;
+    padding-right: 30%;
+   text-align: center;
+   font-size: 100px;
+   padding: 100px;
+
+}
+
+
+#logomistol{
+    height: 40px;
+    width: 40px;
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    display: flex;
+    width: 100%;
+}
+.contenedor{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    list-style-type: none;
+}
+.contenedor__item{
+    justify-content: end;
+    width: 100%;
+    
+float: right;
+}
+    
+
+
+
+.cartita{
+    width: 300px;
+    
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    height: 400px;
+    overflow: auto;
+    border: none;
+   
+}
+.cartita__imagen{
+    width: 100%;
+    border-radius: 10px;
+}
+.cartita__titulo{
+    font-size: 28px;
+    position: sticky;
+    top: -1;
+    background-color: azure;
+    color: yellowgreen;
+}
+.cartita_boton{
+    background-color: darkblue;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.cartita__titulo{
+
+    margin-bottom: 100px;
+}
+
+
+.oy__1{
+    width: 50%;
+    
+border-radius: 40px;
+max-height: 500px;
+margin: 30px;
+}
+.oy__2{
+    max-width: 40%;
+
+font-size: 200%;
+align-items: flex-start;
+text-align: center;
+
+max-height: 500px;
+}
+.tienda{
+    width: 100%;
+}
+#titulotienda{
+   
+    margin: 30px;
+    text-align: center;
+    font-size: 70px;
+    background-color: rgba(65, 105, 225, 0);
+    
+}
+.tienda1{
+   justify-content:center;
+   
+}
+.iteme{
+    width: 30%;
+    margin: 100px 0px 0px 0px;
+    border-radius: 30px;
+border: 5px red;
+}
+.iteme:hover{
+    width: 35%;
+}
+#bodycontacto{
+    background-image: linear-gradient(to bottom, #e6e9ef, #e3e8f1, #dfe6f4, #dce5f6, #d9e3f8, #d5e5fb, #d0e7fd, #cbe9fe, #c6eefc, #c5f3f8, #c8f6f2, #d0f9ea); 
+}
+.contactofooter{
+    width: 100%;
+    display: flex;
+    
+   
+   
+   
+}
+.contactotitulo{
+    text-align: center;
+    background-color: rgb(7, 12, 10);
+    height: 50px;
+    color: #d0e7fd;
+    
+    
+}
+.div-form{
+    width: 50%;
+}
+.form{
+   width: 50%;
+    display: flex;
+   margin: 30px;
+}
+
+
+
+ .imgokey {
+    
+position: sticky;
+float : right ;}
+
+  
+.contactofooter ul{
+    display: inline-block;
+    width: 30%;
+}
+.contactofooter button{
+    background-color: aqua;
+    border-style: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.nuevos{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.nuevos1{
+    background-color: rgb(162, 230, 167);
+    width: 500px;
+    border-radius: 30px;
+    border: 50px black;
+    margin: 10px;
+}
+
+.palta{
+    width: 100%;
+    border-radius: 20px;
+    padding: 30px;
+
+}
+.pr:hover{
+   background-color: chartreuse;
+}
+.rp{
+    color: rgb(184, 123, 67);
+    
+}
+.not:hover{
+background-color: aquamarine;
+}
+.ton{
+    color: rgb(64, 64, 248);
+}
+.rock:hover{
+    background-color: rgb(231, 49, 49);
+}
+.roll{
+    color: rgb(230, 103, 103);
+}
+@media screen and (max-widht: 700px)
+
+{
+    
+    div.caja{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "grid1 grid1 grid2"
+        "grid1 grid1 grid3"
+        "grid5 grid4 grid4"
+        "grid6 grid4 grid4";
+        
+    }
+}
+@media screen and (max-widht: 480px)
+{
+    div.caja{
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "grid1"
+        "grid1"
+        "grid5"
+        "grid6"
+        "grid3"
+        "grid4";
+}
+}
+

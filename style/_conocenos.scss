@@ -1,0 +1,9 @@
+.boton-nosotros{
+    background-color: white; 
+    border:solid 1px rgb(255, 171, 140)!important ;
+    &:hover{
+        background-color: rgb(255, 171, 140)!important; 
+        color: aliceblue;
+        
+    }
+}

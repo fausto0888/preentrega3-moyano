@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;1,100&family=Oswald:wght@500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+*::-moz-selection {
+  background-color: #8ac6b0;
+  color: bisque;
+}
+*::selection {
+  background-color: #8ac6b0;
+  color: bisque;
+}
+
+.navbarimg {
+  width: 50px;
+  border-radius: 10px;
+}
+
+.navbar-position {
+  position: fixed;
+}
+
+.div-navbar-objetos {
+  display: flex;
+  justify-content: center;
+}
+
+#titulo {
+  text-align: center;
+  background-color: #e6e9ef;
+  color: rgb(20, 12, 0);
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 0;
+}
+
+.camion img {
+  width: 50px;
+}
+
+.camion1 {
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #f0f0f4, #dfe2ea, #cdd4e0, #a0b7c7, #6f9caa, #3d8187, #01665f);
+}
+.camion1 img {
+  width: 50px;
+}
+.camion1 h3 {
+  font-size: large;
+}
+
+.caja {
+  max-width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "grid1 grid1 grid2 grid3" "grid1 grid1 grid4 grid4" "grid5 grid6 grid4 grid4";
+}
+
+.grid:hover {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.grid {
+  transition: all 3s;
+  margin: 15px;
+}
+
+.grid1 {
+  grid-area: grid1;
+}
+
+.grid2 {
+  grid-area: grid2;
+}
+
+.grid3 {
+  grid-area: grid3;
+}
+
+.grid4 {
+  grid-area: grid4;
+}
+
+.grid5 {
+  grid-area: grid5;
+}
+
+.grid6 {
+  grid-area: grid6;
+}
+
+.grid-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.sectioncarrusel {
+  max-height: px;
+}
+
+.imagenescarrusel {
+  max-height: 500px;
+  max-width: 700px;
+  border-radius: 10px;
+}
+
+.section-carrusel {
+  display: flex;
+  justify-content: center;
+}
+
+.nuestros-productos {
+  border: solid 1px black;
+  border: left none;
+  border: right none;
+  color: #0a2538;
+}
+
+.section-cartas {
+  margin: 40px;
+}
+
+.card-body {
+  background-color: #ffffff !important;
+  border-radius: 1rem;
+  margin-top: -3rem;
+}
+
+.boton-cartas {
+  border: 0 !important;
+  background-color: #cbe9fe !important;
+  padding: 1rem !important;
+  width: 100%;
+}
+
+.boton-cartas:hover {
+  background-color: #225f48 !important;
+  color: #c5f3f8 !important;
+}
+
+.boton-nosotros {
+  background-color: white;
+  border: solid 1px rgb(255, 171, 140) !important;
+}
+.boton-nosotros:hover {
+  background-color: rgb(255, 171, 140) !important;
+  color: aliceblue;
+}
+
+.titulo-tienda {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.titulo-tienda h3 {
+  color: rgb(0, 90, 90);
+  font-size: xx-large;
+}
+
+.iteme {
+  width: 100%;
+  transition: all 500ms;
+}
+
+.tienda2 > div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.tienda2 > div:hover .iteme {
+  filter: invert(20%);
+  transform: scale(1.05);
+  border-radius: 10px;
+}
+.tienda2 > div:hover .texto-tienda {
+  top: 50%;
+  height: 52.5%;
+  display: inline-block;
+  color: aliceblue;
+  background-color: rgba(12, 45, 39, 0.574);
+}
+
+.text {
+  transition: all 500ms;
+}
+
+.texto-tienda {
+  position: absolute;
+  top: 90%;
+  font-size: xx-large;
+  color: rgba(64, 105, 140, 0);
+  background-color: rgba(0, 0, 0, 0);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 10%;
+}
+
+.palta {
+  color: darkcyan;
+}
+.palta p {
+  color: rgb(11, 62, 56);
+}
+
+.nuevos-prductos {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.nuevos-prductos h1 {
+  color: darkcyan;
+  font-size: xx-large;
+}
+
+.nuevos1 {
+  transition: all 1s;
+  padding: 20px;
+}
+
+.nuevos1:hover {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  transform: scale(1.1);
+}
+
+@media (max-width: 750px) {
+  .caja {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "grid1 grid1 grid2" "grid1 grid1 grid3" "grid5 grid4 grid4" "grid6 grid4 grid4";
+  }
+}
+@media (max-width: 480px) {
+  .caja {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "grid1" "grid2" "grid5" "grid6" "grid3" "grid4";
+  }
+}/*# sourceMappingURL=estilo.css.map */

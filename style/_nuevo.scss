@@ -1,0 +1,28 @@
+.palta{
+    color: darkcyan;
+    p{
+        color: rgb(11, 62, 56);
+    }
+ 
+}
+.nuevos-prductos{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    h1{
+       color: darkcyan; 
+       font-size:xx-large;
+    }
+}
+
+    .nuevos1{
+        transition: all 1s;
+        padding: 20px;
+    }
+.nuevos1:hover {
+    
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        transform: scale(1.1);
+    
+    
+}

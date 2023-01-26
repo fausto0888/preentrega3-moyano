@@ -1,0 +1,68 @@
+
+.titulo-tienda{
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   h3{
+    color: rgb(0, 90, 90);
+    font-size: xx-large;
+   }
+   
+}
+.iteme {
+    width: 100%;
+    transition: all 500ms;
+    
+    
+}
+.tienda2{
+    
+
+    >div{
+        position: relative;
+        display: flex;
+        justify-content: center;
+       
+       
+
+        
+        
+        &:hover{
+            .iteme{
+                filter: invert(20%);
+               transform: scale(1.05);
+               border-radius: 10px;
+
+               
+            }
+
+            .texto-tienda{
+                top: 50%;
+                height: 52.5%;
+                display: inline-block;
+                color: aliceblue;
+                background-color: rgba(12, 45, 39, 0.574);
+    
+                }
+            }
+            
+
+        }
+    }
+
+.text{
+    transition: all 500ms;
+   
+}
+.texto-tienda{
+    position: absolute;
+    
+    top: 90%;
+    font-size: xx-large;
+    color: rgba(64, 105, 140, 0);
+    background-color: rgba(0, 0, 0, 0);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 10%;
+  
+}
